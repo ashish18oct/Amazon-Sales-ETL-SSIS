@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="CM_OLEDB_AmazonSales"
+  DTS:DTSID="{17479D64-8894-44CE-A8DA-299E6BE724D0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-H7J8367\MSSQLSERVER01;Initial Catalog=AmazonSales;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-AmazonSalesETL-{17479D64-8894-44CE-A8DA-299E6BE724D0}DESKTOP-H7J8367\MSSQLSERVER01.AmazonSales;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
